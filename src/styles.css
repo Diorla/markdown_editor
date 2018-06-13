@@ -1,0 +1,89 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: aliceblue;
+  min-height: 100vh;
+}
+.md {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+@media only screen and (min-width: 720px) {
+  .md {
+    position: fixed;
+    right: 0;
+    top: 80px;
+  }
+}
+.editor {
+  max-width: 75vw;
+  min-width: 480px;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 3px;
+  background: #196680;
+  color: white;
+}
+.hide_editor {
+  max-width: 75vw;
+  min-width: 480px;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 3px;
+  background: transparent;
+  color: transparent;
+}
+.full_screen {
+  max-width: 75vw;
+  min-width: 480px;
+  border-radius: 2px;
+  font-size: 16px;
+  outline: none;
+  background: #bfe6f2;
+  color: #114455;
+  border: 1px solid #196680;
+  height: 200px;
+}
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid silver;
+  padding: 4px;
+}
+th {
+  border-bottom: 2px solid #196680;
+}
+a {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+a:hover {
+  color: #185bd3;
+}
+pre {
+  background: #ddd;
+  color: #333;
+  font-family: monospace;
+  padding-left: 4px;
+  border-left: 2px solid black;
+}
+code {
+  background: #ddd;
+  color: #333;
+  font-family: monospace;
+}
+.content {
+  text-align: left;
+}
+.button {
+  border: 1px solid silver;
+  float: right;
+  cursor: pointer;
+}
+.minimised {
+  display: none;
+}
