@@ -1,2 +1,2 @@
-# markdown_editor
+# Markdown Editor
 A simple markdown editor, with live preview.
